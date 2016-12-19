@@ -20,11 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         performFileSearch();
-
     }
 
     private static final int READ_REQUEST_CODE = 42;
-    private static final String TAG = "file_up";
+    private static final String TAG = "FILE_UP";
 
     /**
      * Abrir o seletor de imagem do android.
